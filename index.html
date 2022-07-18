@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+1. Create form
+2. input - type:text inside form - for your todo item
+
+* buttons
+* add button - push things into an array/list
+* reset button with function -a way to remove everything in list with a button
+
+* Unordered (or ordered) list: <ul id="#todo list">
+</ul>
+
+* To accept new items to list: createElement
+& appendChild
+
+Stretch: click event listener for each item in the list, if trying to put strike-through on them
+-->
+
+<h1>ToDo (DOM) List</h1>
+
+    <form>
+        <input id="toDo" type="text">
+        <br><br>
+        <!-- <input id="submit" type="submit"> -->
+        
+        <button id="addButton" class="button add">Add Item(s)</button> 
+        <button id="remButton" class="button rem">Remove Completed Item(s)</button> 
+        <!-- <button id="resetButton" class="button reset">Reset List</button>  -->
+
+    </form>
+
+    <ul>
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
